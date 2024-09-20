@@ -18,7 +18,7 @@ const NavBar = () => {
 				{/* MD Logo */}
 				<div className=' hidden md:flex md:items-center'>
 					<img
-						src='src/assets/2024-HCAHouston-FC-Logo.svg'
+						src='./src/assets/2024-HCAHouston-FC-Logo.svg'
 						alt='logo'
 						className='h-8 w-auto'
 					/>
@@ -36,7 +36,7 @@ const NavBar = () => {
 				{/* Mobile logo */}
 				<div className='md:hidden'>
 					<img
-						src='src/assets/2024-HCAHouston-FC-Logo.svg'
+						src='./src/assets/2024-HCAHouston-FC-Logo.svg'
 						alt='logo'
 						className='h-8 '
 					/>
