@@ -9,7 +9,7 @@ interface LettersProp {
 const fetchFilteredTerms = async (
 	letters: string[]
 ): Promise<LettersProp[]> => {
-	const res = await fetch('/src/data.json');
+	const res = await fetch('src/assets/data.json');
 	const jsonData = await res.json();
 	const data: { title: string; link: string }[] = jsonData.termList;
 
