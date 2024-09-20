@@ -7,7 +7,7 @@ const Contact = () => {
 			<div className='flex justify-between items-center max-w-[1024px] mx-auto '>
 				<div className='flex flex-col items-center'>
 					<img
-						src='src\assets\2024-HCAHouston-FC-Logo-blue.svg'
+						src='src/HCA-FE-Assessment/assets/2024-HCAHouston-FC-Logo-blue.svg'
 						alt='logo'
 						className='h-8'
 					/>
